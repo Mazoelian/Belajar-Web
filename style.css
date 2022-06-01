@@ -1,0 +1,365 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style Navbar start */
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  float: left;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "courier", courier;
+  color: #3bacb6;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  border-bottom: 1px solid #3bacb6;
+}
+
+nav ul {
+  list-syle: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  overflow: hidden;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #525050;
+  transition: all 0.3s ease-in-out;
+}
+
+.tbl-biru {
+  background: #242f9b;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.tbl-biru:hover {
+  text-decoration: none;
+  color: white;
+  background: #36ae7c;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style Navbar end */
+
+/* Style Home start */
+
+.rumah {
+  width: 50%;
+}
+
+section {
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #3bacb6;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #3bacb6;
+  width: 100%;
+  line-height: 50px;
+}
+
+.tbl-pink {
+  background: #36ae7c;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.tbl-pink:hover {
+  text-decoration: none;
+  color: white;
+  background: #242f9b;
+  transition: all 0.3s ease-in-out;
+}
+
+p {
+  margin: 10px 0 10px 0;
+  padding: 10px 0 10px 0;
+}
+
+/* Style Home end */
+
+/* Style Courses start */
+
+.kursus {
+  width: 50%;
+  padding: 20px;
+}
+
+.tbl-hijau {
+  background: #242f9b;
+  margin-top: 20px;
+  margin-right: 240px;
+  border-radius: 25px;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.tbl-hijau:hover {
+  text-decoration: none;
+  color: white;
+  background: #36ae7c;
+  transition: all 0.3s ease-in-out;
+}
+/* Style Courses end */
+
+/* Style Tutors start */
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.tutor-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-tutor {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-tutor img {
+  width: 80%;
+  border-radius: 180px;
+}
+
+.kartu-tutor p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  color: #3bacb6;
+}
+/* Style Tutors end */
+
+/* Style Partners start */
+
+.partners-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partners {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partners img {
+  width: 100px;
+  border-radius: 100px;
+  border: 2px solid #3bacb6;
+}
+
+/* Style Partners end */
+
+/* Style Contact start*/
+
+#contact {
+  background: #dedede;
+  padding: 50px 0 50px 0;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: #3bacb6;
+  width: 100%;
+  line-height: 50px;
+}
+
+.footer-section a {
+  color: black;
+}
+
+.footer-section a:hover {
+  color: #3bacb6;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+/* Style Contact end */
+
+/* Responsive style */
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  section {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .kartu-tutor {
+    width: 50%;
+  }
+
+  .kartu-partners {
+    width: 50%;
+    margin: 20px 0 20px 0;
+  }
+
+  .partners-list {
+    padding-left: 100px;
+  }
+
+  .kartu-tutor {
+    padding-left: 100px;
+  }
+
+  .kartu-tutor p {
+    padding-right: 50px;
+  }
+
+  .tbl-hijau {
+    display: block;
+    margin-right: 90px;
+  }
+
+  .footer-section {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #home img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #courses img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
